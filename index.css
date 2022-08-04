@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+
+body {
+    margin: 0;
+    width: 1440px;
+    color: #FFFFFF;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #F2F2F2;
+}
+
+.header {
+    font-family: 'Big Shoulders Display', cursive;
+    margin-right: 140px;
+    font-size: 30px;
+    color: #F2F2F2;
+}
+
+
+
+#column1 {
+    background: #E38826;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#column2 {
+    background: #006970;
+}
+
+#column3 {
+    background: #004241;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.threeColumns {
+    display: flex;
+}
+
+.column {
+    width: 250px;
+    height: 400px;
+    padding: 40px 20px 0 40px;
+
+}
+
+.wrapper {
+    display: flex;
+    text-align: left;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    background: #F2F2F2;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: transparent;
+    margin: 100px 0 0 50px;
+    
+    
+}
+
+#btn1 {
+    color: #E38826;
+}
+
+#btn2 {
+    color: #006970;
+}
+
+#btn3 {
+    color: #004241;
+}
